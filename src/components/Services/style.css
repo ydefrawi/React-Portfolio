@@ -1,0 +1,29 @@
+.page-section {
+    padding: 2rem 0;
+  }
+  .page-section h2.section-heading {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  .page-section h3.section-subheading {
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin-bottom: 2rem;
+  }
+  
+  @media (min-width: 768px) {
+    section {
+      padding: 9rem 0;
+    }
+  }
+
+.text-primary {
+    color: #04a1af !important;
+  }
+  
+a.text-primary:hover, a.text-primary:focus {
+    color: #e6b301 !important;
+  }
