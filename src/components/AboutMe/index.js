@@ -2,7 +2,7 @@ import React from "react";
 
 function AboutMe (props) {
   return (
-<dryon className="page-section" id="about">
+<div className="page-section" id="about">
             <div className="container">
                 <div className="text-center">
                     <br/>
@@ -95,7 +95,7 @@ function AboutMe (props) {
                     </li>
                 </ul>
             </div>
-</dryon>
+</div>
   );
 }
 
