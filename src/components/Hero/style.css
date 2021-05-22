@@ -42,3 +42,9 @@ header.masthead .masthead-heading {
     margin-bottom: 4rem;
   }
 }
+
+#mainNav .navbar-brand {
+@media (min-width: 992px)
+    font-size:0.5rem;
+    transition: font-size 0.3s ease-in-out;
+}

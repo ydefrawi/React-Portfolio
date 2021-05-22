@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Hero from "../components/Hero";
 import Services from "../components/Services";
+import AboutMe from "../components/AboutMe";
 import PortfolioGrid from "../components/PortfolioGrid";
 
 // console.log(Hero)
@@ -8,11 +9,12 @@ import PortfolioGrid from "../components/PortfolioGrid";
 function Home (){
 
     return (
-        <div>
+        <container>
             <Hero/>
             <Services/>
             <PortfolioGrid/>
-        </div>
+            <AboutMe/>
+            </container>
     )
 
 }
