@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div className="container">
-                <a className="navbar-brand js-scroll-trigger" href="#page-top">Yousef Defrawi</a>
+                <a className="navbar-brand js-scroll-trigger" href="/">Yousef Defrawi</a>
                 <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i className="fas fa-bars ml-1"></i>
@@ -22,7 +22,7 @@ function Navbar() {
                             <a className = "nav-link" href="https://github.com/ydefrawi">Github</a>
                         </li>
                         <li className="nav-item">
-                            <a className = "nav-link" href="#contact">Contact Me</a>
+                            <a className = "nav-link" href="#contact-me">Contact Me</a>
                         </li>
                         <li className="nav-item">
                             <a className = "nav-link" href="https://www.linkedin.com/in/yousef-defrawi" target="_blank">Resume</a>

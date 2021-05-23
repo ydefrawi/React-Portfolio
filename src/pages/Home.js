@@ -5,6 +5,7 @@ import AboutMe from "../components/AboutMe";
 import PortfolioGrid from "../components/PortfolioGrid";
 
 //prime-react
+import { Sidebar } from 'primereact/sidebar';
 import { Card } from 'primereact/card';
 import { Button } from 'primereact/button';
 import { Toast } from 'primereact/toast';

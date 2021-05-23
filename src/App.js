@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
+import Contact from "./components/Contact/Contact";
 import './styles.css'
 
 function App() {
@@ -16,9 +17,10 @@ function App() {
         <Wrapper>
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
-          <Route exact path="/discover" component={Discover} />
+          <Route exact path="/portfolio" component={Discover} />
           {/* <Route exact path="/search" component={Search} /> */}
         </Wrapper>
+        <Contact />
         <Footer />
       </div>
     </Router>

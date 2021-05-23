@@ -1,8 +1,15 @@
 import React from "react";
+import profile from "./profilePic.PNG"
 
 function AboutMe (props) {
   return (
 <div className="page-section" id="about">
+<div>
+                
+   <div id = "divider" class="parallax"></div> 
+  <img id="about-divider" src="assets/img/Divider2.jpg" width="100%" height="0" />
+    
+   </div>
             <div className="container">
                 <div className="text-center">
                     <br/>
@@ -10,7 +17,7 @@ function AboutMe (props) {
                     <h3 className="section-subheading text-muted">A little about me</h3>
                 </div>
                 <div container className="text-center"> 
-                    <img className = "profile-pic" src="assets/img/portfolio/profilePic.PNG" height="400px" />
+                    <img className = "profile-pic" src={profile} height="400px" />
                 </div>
                 <container className="container">
                     <div className="text-left">
@@ -24,7 +31,7 @@ function AboutMe (props) {
                 <ul className="timeline">,
                 
                     <li>
-                        <div className="timeline-image"><img className="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="..." /></div>
+                        <div className="timeline-image"><img className="rounded-circle" src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1082&q=80" width="160px" height="161" alt="..." /></div>
                         <div className="timeline-panel">
                             <div className="timeline-heading">
                                 <h4 className="subheading">Education</h4>
@@ -39,7 +46,7 @@ function AboutMe (props) {
                         </div>
                     </li>
                     <li className="timeline-inverted">
-                        <div className="timeline-image"><img className="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="..." /></div>
+                        <div className="timeline-image"><img className="rounded-circle" src="https://images.unsplash.com/photo-1503220317375-aaad61436b1b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" width="160px" height="155" alt="..." /></div>
                         <div className="timeline-panel">
                             <div className="timeline-heading">
                                 <h4 className="subheading">First Steps</h4>
@@ -59,7 +66,7 @@ function AboutMe (props) {
                         </div>
                     </li>
                     <li>
-                        <div className="timeline-image"><img className="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="..." /></div>
+                        <div className="timeline-image"><img className="rounded-circle" src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1302&q=80" width="160px" height="155" alt="..." /></div>
                         <div className="timeline-panel">
                             <div className="timeline-heading">
                                 <h4 className="subheading">Front-End Firsts</h4>
@@ -75,7 +82,7 @@ function AboutMe (props) {
                         </div>
                     </li>
                     <li className="timeline-inverted">
-                        <div className="timeline-image"><img className="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="..." /></div>
+                        <div className="timeline-image"><img className="rounded-circle" src="https://images.unsplash.com/photo-1612194556287-82571e9d1d7b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80" width="160px" height="160" alt="..." /></div>
                         <div className="timeline-panel">
                             <div className="timeline-heading">
                                 <h4>May 2021</h4>
