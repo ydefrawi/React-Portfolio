@@ -13,10 +13,10 @@ function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarResponsive">
                     <ul className="navbar-nav text-uppercase ml-auto">
                         <li className="nav-item">
-                            <a className = "nav-link" href="#about">About Me</a>
+                            <a className = "nav-link" href="/about">About Me</a>
                         </li>
                         <li className="nav-item">
-                            <a className = "nav-link" href="#portfolio">Work</a>
+                            <a className = "nav-link" href="/portfolio">Recent Work</a>
                         </li>
                         <li className="nav-item">
                             <a className = "nav-link" href="https://github.com/ydefrawi">Github</a>
